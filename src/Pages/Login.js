@@ -324,27 +324,6 @@ const Login = () => {
             </div>
         </header>
   {/* rts header area end */}
-  {/* rts breadcrumb area start*/}
-  <div className="rts-bread-crumb-area bg_image">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="breadcrumb-inne">
-            <div className="title-area">
-              <h1 className="bread-title">Log In</h1>
-              <div className="inner-wrapper">
-                <a href="/">Home</a>/
-                <a href="#" className="active">
-                  Log In
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  {/* rts breadcrumb area end */}
   {/* login area start */}
   <div className="log-in-area-start rts-section-gap">
     <div className="container">
