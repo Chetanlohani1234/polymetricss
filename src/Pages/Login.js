@@ -145,7 +145,7 @@ const Login = () => {
                                                           <p>ALL INTEGRATIONS</p>  
                                                             <ul className="mega-menu-item">
                                                                 <li>
-                                                                    <a href="/AboutOpenUp">
+                                                                    <a href="/Feature">
                                                                         {/* <img src="assets/images/mega-menu/01.svg" alt="icon"/> */}
                                                                         <div className="info">
                                                                             <p>Omnichannel messaging</p>
@@ -309,7 +309,7 @@ const Login = () => {
                             {/* <!-- nav end --> */}
                             <div className="button-area">
                                 <a href="/Login">Login</a>
-                                <a href="/AboutOpenUp" className="rts-btn btn-primary">Get Started</a>
+                                <a href="/" className="rts-btn btn-primary">Get Started</a>
                             </div>
                             <div className="menu-btn d-xl-none d-lg-none d-md-block d-sm-block" id="menu-btn">
                                 <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -332,6 +332,7 @@ const Login = () => {
           {/* single login area start */}
           <div className="single-form-s-wrapper">
             <div className="head">
+             <br/>  
               <span>Welcome Back</span>
               <h5 className="title">Login to continue</h5>
             </div>
@@ -448,7 +449,7 @@ const Login = () => {
                 All set to level up <br />
                 your content game?
               </h3>
-              <a href="/AboutOpenUp" className="rts-btn btn-primary">
+              <a href="/" className="rts-btn btn-primary">
                 Get Started Now
               </a>
             </div>
@@ -586,8 +587,8 @@ const Login = () => {
           {/* footer-copyright-area start */}
           <div className="copy-right-start-two">
             <p>
-              <a href="https://reactheme.com/" target="_blank">
-                Reactheme©
+              <a href="https://www.vagonon.com/" target="_blank">
+                Vagonon©
               </a>{" "}
               2023. All Rights Reserved.
             </p>

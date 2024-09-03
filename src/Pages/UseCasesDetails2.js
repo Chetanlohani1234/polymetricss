@@ -145,7 +145,7 @@ const UseCasesDetails2 = () => {
                                                           <p>ALL INTEGRATIONS</p>  
                                                             <ul className="mega-menu-item">
                                                                 <li>
-                                                                    <a href="/Soon">
+                                                                    <a href="/Feature">
                                                                         {/* <img src="assets/images/mega-menu/01.svg" alt="icon"/> */}
                                                                         <div className="info">
                                                                             <p>Omnichannel messaging</p>
@@ -309,7 +309,7 @@ const UseCasesDetails2 = () => {
                             {/* <!-- nav end --> */}
                             <div className="button-area">
                                 <a href="/Login">Login</a>
-                                <a href="/AboutOpenUp" className="rts-btn btn-primary">Get Started</a>
+                                <a href="/" className="rts-btn btn-primary">Get Started</a>
                             </div>
                             <div className="menu-btn d-xl-none d-lg-none d-md-block d-sm-block" id="menu-btn">
                                 <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1287,7 +1287,7 @@ const UseCasesDetails2 = () => {
               Ready to automate more than 80% of <br/>
                your customer support?
               </h3>
-              <a href="/AboutOpenUp" className="rts-btn btn-primary">
+              <a href="/" className="rts-btn btn-primary">
                 Get Started Now
               </a>
             </div>
@@ -1425,8 +1425,8 @@ const UseCasesDetails2 = () => {
           {/* footer-copyright-area start */}
           <div className="copy-right-start-two">
             <p>
-              <a href="https://reactheme.com/" target="_blank">
-                Reactheme©
+              <a href="https://www.vagonon.com/" target="_blank">
+                Vagonon©
               </a>{" "}
               2023. All Rights Reserved.
             </p>

@@ -4,200 +4,128 @@ const Feature = () => {
   return (
 <div className="inner-page">
   {/* rts header area start */}
-  <header className="header-one header--sticky">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="header-main-wrapper">
-            <a href="index.html" className="logo">
-              <img src="assets/images/logo/01.svg" alt="logo" />
-            </a>
-            {/* nav */}
-            <div className="nav-area-main d-xl-block d-lg-block d-md-none d-sm-none d-none">
-              <nav>
-                <ul>
-                  <li className="has-dropdown">
-                    <a className="links-main" href="#">
-                      Home
-                    </a>
-                    <ul className="submenu">
-                        {/* <li><a href="/index-page-1">Content Writing 01</a></li> */}
-                        <li><a href='/IndexOne'>Content Writing 01</a></li>
-                        <li><a href="/">Content Writing 02</a></li>
-                        <li><a href="/IndexThree">Content Writing 03</a></li>
-                        <li><a href="/IndexFour">Ai Chat Bot</a></li>
-                        <li><a href="/IndexFive">Voice Generator</a></li>
-                        <li><a href="/">Image Generator <span>New</span></a></li>
-                        <li><a href="/">Photo Stock <span>New</span></a></li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a className="links-main" href="/UseCase">
-                      Use Cases
-                    </a>
-                  </li>
-                  <li className="has-dropdown mega-menu">
-                    <a className="links-main" href="#">
-                      Pages
-                    </a>
-                    <div className="rts-mega-menu">
+  <header className="header-area header-two">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-12">
+                        {/* <!-- header top start --> */}
+                        <div className="header-top-two">
+                            <div className="social-area">
+                                <ul>
+                                    <li>
+                                        <a href="#"><i className="fa-brands fa-facebook-f"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i className="fa-brands fa-twitter"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i className="fa-brands fa-behance"></i></a>
+                                    </li>
+                                    <li>
+                                        <a href="#"><i className="fa-brands fa-discord"></i></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div className="right-area">
+                                <ul>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                    <li><a href="/Contact">Contact</a></li>
+                                    <li><a href="#">En(US)</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        {/* <!-- header top end --> */}
+                        <div className="header-main-two header--sticky">
+                            {/* <a href="index.html">
+                                <img src="assets/images/logo/03.svg" alt="logo"/>
+                            </a> */}
+                            <h4>Polymatric</h4>
+                            {/* <!-- nav --> */}
+                            <div className="nav-area-main d-xl-block d-lg-block d-md-none d-sm-none d-none">
+                                <nav>
+                                    <ul>
+                                        <li className="has-dropdown mega-menu">
+                                            <a className="links-main" href="#">Solutions</a>
+                                            <div className="rts-mega-menu">
                                                 <div className="wrapper">
                                                     <div className="row g-0">
                                                         <div className="col-lg-3">
+                                                          <p>PRODUCTS</p>  
                                                             <ul className="mega-menu-item">
                                                                 <li>
-                                                                    <a href="/AboutOpenUp">
-                                                                        <img src="assets/images/mega-menu/01.svg" alt="icon"/>
+                                                                    <a href="/UseCasesDetails2">
+                                                                        {/* <img src="assets/images/mega-menu/01.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>About OpenUp</p>
-                                                                            <span>Get know about openup </span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/UseCase">
-                                                                        <img src="assets/images/mega-menu/02.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Use Cases</p>
-                                                                            <span>provide detailed explan</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/Pricing">
-                                                                        <img src="assets/images/mega-menu/03.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Pricing</p>
-                                                                            <span>Openup provide pro price</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/Login">
-                                                                        <img src="assets/images/mega-menu/04.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Login</p>
-                                                                            <span>Create content by ou</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div className="col-lg-3">
-                                                            <ul className="mega-menu-item">
-                                                                <li>
-                                                                    <a href="/Blog">
-                                                                        <img src="assets/images/mega-menu/05.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Blog</p>
-                                                                            <span>Read openup artical</span>
+                                                                            <p>ChatBot Builder</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
                                                                     <a href="/UseCasesDetails">
-                                                                        <img src="assets/images/mega-menu/06.svg" alt="icon"/>
+                                                                        {/* <img src="assets/images/mega-menu/02.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Use Cases Details</p>
-                                                                            <span>provide detailed explan</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/Pricing2">
-                                                                        <img src="assets/images/mega-menu/07.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Pricing 2</p>
-                                                                            <span>Openup provide pro price</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                                <li>
-                                                                    <a href="/Register">
-                                                                        <img src="assets/images/mega-menu/08.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Register</p>
-                                                                            <span>Make your account</span>
-                                                                        </div>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                        <div className="col-lg-3">
-                                                            <ul className="mega-menu-item">
-                                                                <li>
-                                                                    <a href="/BlogDetails">
-                                                                        <img src="assets/images/mega-menu/09.svg" alt="icon"/>
-                                                                        <div className="info">
-                                                                            <p>Blog Details</p>
-                                                                            <span>Read openup artical</span>
+                                                                            <p>Generative AI Chatbot</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
                                                                     <a href="/UseCases2">
-                                                                        <img src="assets/images/mega-menu/10.svg" alt="icon"/>
+                                                                        {/* <img src="assets/images/mega-menu/03.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Use Cases 2</p>
-                                                                            <span>provide detailed explan</span>
+                                                                            <p>Live Chat</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="/Pricing3">
-                                                                        <img src="assets/images/mega-menu/11.svg" alt="icon"/>
+                                                                    <a href="/useCase">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Pricing 3</p>
-                                                                            <span>Openup provide pro price</span>
+                                                                            <p>Dialogflow Integration</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="/Reset">
-                                                                        <img src="assets/images/mega-menu/12.svg" alt="icon"/>
+                                                                    <a href="/FAQ">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Reset</p>
-                                                                            <span>Rest your possword</span>
+                                                                            <p>FAQ ChatBot</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                             </ul>
                                                         </div>
                                                         <div className="col-lg-3">
+                                                            <p>INDUSTRIES</p>
                                                             <ul className="mega-menu-item">
                                                                 <li>
-                                                                    <a href="/Contact">
-                                                                        <img src="assets/images/mega-menu/13.svg" alt="icon"/>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/05.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Contact</p>
-                                                                            <span>Contact with openup</span>
+                                                                            <p>eCommerce</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="/UseCasesDetails2">
-                                                                        <img src="assets/images/mega-menu/14.svg" alt="icon"/>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/06.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Use Cases Details 2</p>
-                                                                            <span>provide detailed explan</span>
+                                                                            <p>Healthcare</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="/FAQ">
-                                                                        <img src="assets/images/mega-menu/15.svg" alt="icon"/>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/07.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>FAQ</p>
-                                                                            <span>Do you know openup</span>
+                                                                            <p>Education</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="404.html">
-                                                                        <img src="assets/images/mega-menu/16.svg" alt="icon"/>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/08.svg" alt="icon"/> */}
                                                                         <div className="info">
-                                                                            <p>Error</p>
-                                                                            <span>Back to home</span>
+                                                                            <p>Banking</p>
                                                                         </div>
                                                                     </a>
                                                                 </li>
@@ -205,102 +133,229 @@ const Feature = () => {
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
+
+                                        </li>
+                                        <li className="has-dropdown mega-menu">
+                                            <a className="links-main" href="#">Integrations</a>
+                                            <div className="rts-mega-menu">
+                                                <div className="wrapper">
+                                                    <div className="row g-0">
+                                                        <div className="col-lg-3">
+                                                          <p>ALL INTEGRATIONS</p>  
+                                                            <ul className="mega-menu-item">
+                                                                <li>
+                                                                    <a href="/Feature">
+                                                                        {/* <img src="assets/images/mega-menu/01.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Omnichannel messaging</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/02.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>eCommerce sites</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/03.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Chatbot Builder</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Zendesk ChatBot</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Website and CMS</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div className="col-lg-3">
+                                                            <ul className="mega-menu-item">
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/05.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Mobile Apps</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/06.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>CRMs</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/07.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Automation and Analytics</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </li>
+                                        <li className="has-dropdown mega-menu">
+                                            <a className="links-main" href="#">Resources</a>
+                                            <div className="rts-mega-menu">
+                                                <div className="wrapper">
+                                                    <div className="row g-0">
+                                                        <div className="col-lg-3">
+                                                          <p>ALL RESOURCES</p>  
+                                                            <ul className="mega-menu-item">
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/01.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Blog</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/02.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Case Studies</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/03.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Comparison</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>videos</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/04.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Chatbot Templates</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                        <div className="col-lg-3">
+                                                            <ul className="mega-menu-item">
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/05.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>ROI Calculator</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/06.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Whitepapers</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                                <li>
+                                                                    <a href="/Soon">
+                                                                        {/* <img src="assets/images/mega-menu/07.svg" alt="icon"/> */}
+                                                                        <div className="info">
+                                                                            <p>Generative AI Guide</p>
+                                                                        </div>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </li>
+                                        <li><a className="links-main" href="/Soon">Pricing</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            {/* <!-- nav end --> */}
+                            <div className="button-area">
+                                <a href="/Login">Login</a>
+                                <a href="/AboutOpenUp" className="rts-btn btn-primary">Get Started</a>
+                            </div>
+                            <div className="menu-btn d-xl-none d-lg-none d-md-block d-sm-block" id="menu-btn">
+                                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect y="14" width="20" height="2" fill="#1F1F25"></rect>
+                                    <rect y="7" width="20" height="2" fill="#1F1F25"></rect>
+                                    <rect width="20" height="2" fill="#1F1F25"></rect>
+                                </svg>
+                            </div>
+                        </div>
                     </div>
-                  </li>
-                  <li>
-                    <a className="links-main" href="/Feature">
-                      Feature
-                    </a>
-                  </li>
-                  <li className="has-dropdown">
-                    <a className="links-main" href="#">
-                      Shop
-                    </a>
-                    <ul className="submenu">
-                      <li>
-                        <a href="/ProductDetails">Product Details</a>
-                      </li>
-                      <li>
-                        <a href="/Cart">Cart</a>
-                      </li>
-                      <li>
-                        <a href="/Checkout">Checkout</a>
-                      </li>
-                      <li>
-                        <a href="/MyAccount">My Account</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a className="links-main" href="/Contact">
-                      Contact
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+                </div>
             </div>
-            {/* nav end */}
-            <div className="button-area">
-              <a href="/Login" className="rts-btn btn-lonly mr--30">
-                Sign in
-              </a>
-              <a href="/AboutOpenUp" className="rts-btn btn-blur">
-                Get Started
-              </a>
-            </div>
-            <div
-              className="menu-btn d-xl-none d-lg-none d-md-block d-sm-block"
-              id="menu-btn"
-            >
-              <svg
-                width={20}
-                height={16}
-                viewBox="0 0 20 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect y={14} width={20} height={2} fill="#1F1F25" />
-                <rect y={7} width={20} height={2} fill="#1F1F25" />
-                <rect width={20} height={2} fill="#1F1F25" />
-              </svg>
-            </div>
+        </header>
+  {/* rts header area end */} 
+  {/* use case area start */}
+  <br/>
+  <div className="use-case-details-area rts-section-gapTop">
+    <div className="container section-seperatorBottom rts-section-gapBottom">
+      <div className="row" style={{marginTop:"50px"}}>
+        <div className="col-lg-6">
+          <div className="title-left-area">
+            <h2 className="title">
+            Connect with your customers in their favorite messaging apps
+            </h2>
+            <a href="#" className="rts-btn btn-primary">
+              Try For Free <i className="fa-regular fa-arrow-right" />
+            </a>
           </div>
         </div>
-      </div>
-    </div>
-  </header>
-  {/* rts header area end */}
-  {/* rts breadcrumb area start*/}
-  <div className="rts-bread-crumb-area bg_image">
-    <div className="container">
-      <div className="row">
-        <div className="col-lg-12">
-          <div className="breadcrumb-inne">
-            <div className="title-area">
-              <h1 className="bread-title">AI Writing Tools Fingertips.</h1>
-              <div className="inner-wrapper">
-                <a href="/">Home</a>/
-                <a href="#" className="active">
-                  Feature
-                </a>
-              </div>
-            </div>
+        <div className="col-lg-6 mt_md--50 mt_sm--50">
+          <div className="thumbnail-case-top">
+            <img src="assets/images/case/01.png" alt="case" />
           </div>
         </div>
       </div>
     </div>
   </div>
-  {/* rts breadcrumb area end */}
-  {/* use case area start */}
+
   <div className="rts-case-area rts-section-gap">
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
           <div className="title-conter-area">
-            <span className="pre-title-bg">OpenUp Use cases</span>
+            <span className="pre-title-bg">Omnichannel Messaging</span>
             <h2 className="title">
-              Generate AI Copy writing <br />
-              Favorite Tools
+             Deploy AI Chatbot across messaging apps in 5 mins
             </h2>
           </div>
         </div>
@@ -309,34 +364,27 @@ const Feature = () => {
         <div className="col-lg-4">
           {/* single use case */}
           <div className="single-use-case">
-            <div className="icon">
+            <div className="icon" style={{marginLeft:"70px"}}>
               <svg
-                width={50}
-                height={50}
+                width={100}
+                height={100}
                 viewBox="0 0 50 50"
                 fill="none"
+                class='bi bi-facebook'
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <rect
-                  width={50}
-                  height={50}
-                  rx={4}
-                  fill="#3F3EED"
-                  fillOpacity="0.1"
-                />
                 <path
-                  d="M23.1719 17.5469C28 17.8281 32.1719 22 32.4531 26.7812C32.5 27.3906 32.0312 27.9531 31.4219 28C31.375 28 31.375 28 31.3281 28C30.7656 28 30.25 27.5312 30.25 26.9219C29.9688 23.2188 26.7344 19.9844 23.0312 19.75C22.4219 19.75 21.9531 19.1875 22 18.5781C22 17.9688 22.5625 17.5 23.1719 17.5469ZM23.5 13C30.9062 13 37 19.0938 37 26.5C37 27.3438 36.2969 28 35.5 28C34.6562 28 34 27.3438 34 26.5C34 20.7344 29.2656 16 23.5 16C22.6562 16 22 15.3438 22 14.5C22 13.7031 22.6562 13 23.5 13ZM21.0625 23.6406C24.5781 24.3438 27.1562 27.8594 26.3125 31.7031C25.7969 34.2344 23.7344 36.2969 21.2031 36.8125C16.8438 37.75 13 34.4219 13 30.25V18.625C13 18.0156 13.4688 17.5469 14.0781 17.5469H16.3281C16.9844 17.5469 17.4531 18.0156 17.4531 18.625V30.2031C17.4531 31.375 18.4844 32.4062 19.75 32.4062C20.9688 32.4062 22 31.4219 22 30.2031C22 29.2656 21.3438 28.4219 20.5 28.1406C20.0781 28 19.75 27.625 19.75 27.1094V24.7656C19.75 24.0625 20.3594 23.5 21.0625 23.6406Z"
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
                   fill="#3F3EED"
                 />
               </svg>
             </div>
-            <h5 className="title">Blog Content</h5>
+            <h5 className="title" style={{marginTop:"-60px"}}>Facebook</h5>
             <p className="disc">
-              Write a first draft. The first draft should be written in
-              long-form breaking.
+              Manage customer messages on your Facebook messenger through the Polymatric dashboard
             </p>
             <a href="#" className="more-case-btn">
-              Try Blog Content
+              Integrate with Polymatric
               <i className="fa-regular fa-arrow-right" />
             </a>
           </div>
@@ -345,34 +393,27 @@ const Feature = () => {
         <div className="col-lg-4">
           {/* single use case */}
           <div className="single-use-case">
-            <div className="icon">
+            <div className="icon" style={{marginLeft:"70px"}}>
               <svg
-                width={50}
-                height={50}
+                width={100}
+                height={100}
                 viewBox="0 0 50 50"
                 fill="none"
+                class = "bi bi-whatsapp"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <rect
-                  width={50}
-                  height={50}
-                  rx={4}
-                  fill="#33B89F"
-                  fillOpacity="0.1"
-                />
                 <path
-                  d="M29.5 25C29.5 26.6875 28.1406 28 26.5 28L19.0938 28.0469L15.2031 30.9531C14.9219 31.1406 14.5 30.9531 14.5 30.5781V28.0469L13 28C11.3125 28 10 26.6875 10 25V16C10 14.3594 11.3125 13 13 13H26.5C28.1406 13 29.5 14.3594 29.5 16V25ZM37 19C38.6406 19 40 20.3594 40 22V31.0469C40 32.6875 38.6406 34 37 34H35.5V36.5781C35.5 36.9531 35.0312 37.1406 34.7031 36.9062L30.8125 34H24.9531C23.3125 34 22 32.6875 22 31V29.5H26.5C28.9375 29.5 31 27.4844 31 25V19H37Z"
+                  d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
                   fill="#33B89F"
                 />
               </svg>
             </div>
-            <h5 className="title">Social Media Content</h5>
+            <h5 className="title" style={{marginTop:"-60px"}}>Whatsapp</h5>
             <p className="disc">
-              Write a first draft. The first draft should be written in
-              long-form breaking.
+            Connect your Business account to manage WhatsApp business conversations easily
             </p>
             <a href="#" className="more-case-btn">
-              Try Blog Content
+               Integrate With Polymatric
               <i className="fa-regular fa-arrow-right" />
             </a>
           </div>
@@ -381,34 +422,27 @@ const Feature = () => {
         <div className="col-lg-4">
           {/* single use case */}
           <div className="single-use-case">
-            <div className="icon">
+            <div className="icon" style={{marginLeft:"70px"}}>
               <svg
-                width={50}
-                height={50}
+                width={100}
+                height={100}
                 viewBox="0 0 50 50"
                 fill="none"
+                class="bi bi-line"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <rect
-                  width={50}
-                  height={50}
-                  rx={4}
-                  fill="#2A85C8"
-                  fillOpacity="0.1"
-                />
                 <path
-                  d="M13 14.125C13 13.5156 13.4688 13 14.125 13H17.5C18.0156 13 18.4844 13.4219 18.5781 13.9375L18.6719 14.5H38.3594C39.3438 14.5 40.0938 15.4844 39.8125 16.4219L37.2812 25.4219C37.0938 26.0781 36.5312 26.5 35.8281 26.5H20.9688L21.3906 28.75H35.875C36.4844 28.75 37 29.2656 37 29.875C37 30.5312 36.4844 31 35.875 31H20.4531C19.9375 31 19.4688 30.625 19.375 30.1094L16.5625 15.25H14.125C13.4688 15.25 13 14.7812 13 14.125ZM23.5 34.75C23.5 36.0156 22.4688 37 21.25 37C19.9844 37 19 36.0156 19 34.75C19 33.5312 19.9844 32.5 21.25 32.5C22.4688 32.5 23.5 33.5312 23.5 34.75ZM32.5 34.75C32.5 33.5312 33.4844 32.5 34.75 32.5C35.9688 32.5 37 33.5312 37 34.75C37 36.0156 35.9688 37 34.75 37C33.4844 37 32.5 36.0156 32.5 34.75ZM14.875 17.5C15.4844 17.5 16 18.0156 16 18.625C16 19.2812 15.4844 19.75 14.875 19.75H11.125C10.4688 19.75 10 19.2812 10 18.625C10 18.0156 10.4688 17.5 11.125 17.5H14.875ZM15.625 21.25C16.2344 21.25 16.75 21.7656 16.75 22.375C16.75 23.0312 16.2344 23.5 15.625 23.5H11.125C10.4688 23.5 10 23.0312 10 22.375C10 21.7656 10.4688 21.25 11.125 21.25H15.625ZM16.375 25C16.9844 25 17.5 25.5156 17.5 26.125C17.5 26.7812 16.9844 27.25 16.375 27.25H11.125C10.4688 27.25 10 26.7812 10 26.125C10 25.5156 10.4688 25 11.125 25H16.375Z"
-                  fill="#2A85C8"
+                  d="M8 0c4.411 0 8 2.912 8 6.492 0 1.433-.555 2.723-1.715 3.994-1.678 1.932-5.431 4.285-6.285 4.645-.83.35-.734-.197-.696-.413l.003-.018.114-.685c.027-.204.055-.521-.026-.723-.09-.223-.444-.339-.704-.395C2.846 12.39 0 9.701 0 6.492 0 2.912 3.59 0 8 0M5.022 7.686H3.497V4.918a.156.156 0 0 0-.155-.156H2.78a.156.156 0 0 0-.156.156v3.486c0 .041.017.08.044.107v.001l.002.002.002.002a.15.15 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157m.791-2.924a.156.156 0 0 0-.156.156v3.486c0 .086.07.155.156.155h.562c.086 0 .155-.07.155-.155V4.918a.156.156 0 0 0-.155-.156zm3.863 0a.156.156 0 0 0-.156.156v2.07L7.923 4.832l-.013-.015v-.001l-.01-.01-.003-.003-.011-.009h-.001L7.88 4.79l-.003-.002-.005-.003-.008-.005h-.002l-.003-.002-.01-.004-.004-.002-.01-.003h-.002l-.003-.001-.009-.002h-.006l-.003-.001h-.004l-.002-.001h-.574a.156.156 0 0 0-.156.155v3.486c0 .086.07.155.156.155h.56c.087 0 .157-.07.157-.155v-2.07l1.6 2.16a.2.2 0 0 0 .039.038l.001.001.01.006.004.002.008.004.007.003.005.002.01.003h.003a.2.2 0 0 0 .04.006h.56c.087 0 .157-.07.157-.155V4.918a.156.156 0 0 0-.156-.156zm3.815.717v-.56a.156.156 0 0 0-.155-.157h-2.242a.16.16 0 0 0-.108.044h-.001l-.001.002-.002.003a.16.16 0 0 0-.044.107v3.486c0 .041.017.08.044.107l.002.003.002.002a.16.16 0 0 0 .108.043h2.242c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156v-.56a.156.156 0 0 0-.155-.157H11.81v-.589h1.525c.086 0 .155-.07.155-.156Z"
+                  fill="#008000"
                 />
               </svg>
             </div>
-            <h5 className="title">eCommerce copy</h5>
+            <h5 className="title" style={{marginTop:"-60px"}}>Line</h5>
             <p className="disc">
-              Write a first draft. The first draft should be written in
-              long-form breaking.
+             Connect your Line account with Polymatric to read, reply and manage customer conversations
             </p>
             <a href="#" className="more-case-btn">
-              Try Blog Content
+               Integrate with Polymatric
               <i className="fa-regular fa-arrow-right" />
             </a>
           </div>
@@ -417,34 +451,27 @@ const Feature = () => {
         <div className="col-lg-4">
           {/* single use case */}
           <div className="single-use-case">
-            <div className="icon">
+            <div className="icon" style={{marginLeft:"70px"}}>
               <svg
-                width={50}
-                height={50}
+                width={100}
+                height={100}
                 viewBox="0 0 50 50"
                 fill="none"
+                class="bi bi-telegram"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <rect
-                  width={50}
-                  height={50}
-                  rx={4}
-                  fill="#EBA43B"
-                  fillOpacity="0.1"
-                />
                 <path
-                  d="M17.25 14.5H24.2344C25.0312 14.5 25.7812 14.8281 26.3438 15.3906L34.5938 23.6406C35.7656 24.8125 35.7656 26.7344 34.5938 27.9062L28.3594 34.1406C27.1875 35.3125 25.2656 35.3125 24.0938 34.1406L15.8438 25.8906C15.2812 25.3281 15 24.5781 15 23.7812V16.75C15 15.5312 15.9844 14.5 17.25 14.5ZM20.25 21.25C21.0469 21.25 21.75 20.5938 21.75 19.75C21.75 18.9531 21.0469 18.25 20.25 18.25C19.4062 18.25 18.75 18.9531 18.75 19.75C18.75 20.5938 19.4062 21.25 20.25 21.25Z"
-                  fill="#EBA43B"
+                  d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.287 5.906q-1.168.486-4.666 2.01-.567.225-.595.442c-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294q.39.01.868-.32 3.269-2.206 3.374-2.23c.05-.012.12-.026.166.016s.042.12.037.141c-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8 8 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629q.14.092.27.187c.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.4 1.4 0 0 0-.013-.315.34.34 0 0 0-.114-.217.53.53 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09"
+                  fill="#3F3EED"
                 />
               </svg>
             </div>
-            <h5 className="title">Sales Copy</h5>
+            <h5 className="title"  style={{marginTop:"-60px"}}>Telegram</h5>
             <p className="disc">
-              Write a first draft. The first draft should be written in
-              long-form breaking.
+            Easily receive and reply to Telegram channel messages from your Polymatric dashboard
             </p>
             <a href="#" className="more-case-btn">
-              Try Blog Content
+              Integrate with Polymatric
               <i className="fa-regular fa-arrow-right" />
             </a>
           </div>
@@ -453,178 +480,27 @@ const Feature = () => {
         <div className="col-lg-4">
           {/* single use case */}
           <div className="single-use-case">
-            <div className="icon">
+            <div className="icon" style={{marginLeft:"70px"}}>
               <svg
-                width={50}
-                height={50}
+                width={100}
+                height={100}
                 viewBox="0 0 50 50"
                 fill="none"
+                class = "bi bi-instagram"
                 xmlns="http://www.w3.org/2000/svg"
               >
-                <rect
-                  width={50}
-                  height={50}
-                  rx={4}
-                  fill="#E331D2"
-                  fillOpacity="0.1"
-                />
                 <path
-                  d="M13 17.5C13 15.8594 14.3125 14.5 16 14.5H34C35.6406 14.5 37 15.8594 37 17.5V32.5C37 34.1875 35.6406 35.5 34 35.5H16C14.3125 35.5 13 34.1875 13 32.5V17.5ZM17.5 20.5C18.2969 20.5 19 19.8438 19 19C19 18.2031 18.2969 17.5 17.5 17.5C16.6562 17.5 16 18.2031 16 19C16 19.8438 16.6562 20.5 17.5 20.5ZM34 19C34 18.3906 33.4844 17.875 32.875 17.875H21.625C20.9688 17.875 20.5 18.3906 20.5 19C20.5 19.6562 20.9688 20.125 21.625 20.125H32.875C33.4844 20.125 34 19.6562 34 19Z"
-                  fill="#E331D2"
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+                  fill="#E1306C"
                 />
               </svg>
             </div>
-            <h5 className="title">website copy</h5>
+            <h5 className="title" style={{marginTop:"-60px"}}>Instagram</h5>
             <p className="disc">
-              Write a first draft. The first draft should be written in
-              long-form breaking.
+             Automate Instagram Business Messages to provide instant support to your customers
             </p>
             <a href="#" className="more-case-btn">
-              Try Blog Content
-              <i className="fa-regular fa-arrow-right" />
-            </a>
-          </div>
-          {/* single use case end */}
-        </div>
-        <div className="col-lg-4">
-          {/* single use case */}
-          <div className="single-use-case">
-            <div className="icon">
-              <svg
-                width={50}
-                height={50}
-                viewBox="0 0 50 50"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  width={50}
-                  height={50}
-                  rx={4}
-                  fill="#5584FF"
-                  fillOpacity="0.1"
-                />
-                <path
-                  d="M21.75 24.1562L22.7344 26.125H20.7188L21.75 24.1562ZM31.5 26.125C31.5 26.7812 30.9844 27.25 30.375 27.25C29.7188 27.25 29.25 26.7812 29.25 26.125C29.25 25.5156 29.7188 25 30.375 25C30.9844 25 31.5 25.5156 31.5 26.125ZM36 14.5C37.6406 14.5 39 15.8594 39 17.5V32.5C39 34.1875 37.6406 35.5 36 35.5H15C13.3125 35.5 12 34.1875 12 32.5V17.5C12 15.8594 13.3125 14.5 15 14.5H36ZM22.7344 21.1562C22.5469 20.7812 22.1719 20.5 21.75 20.5C21.2812 20.5 20.9062 20.7812 20.7188 21.1562L17.3438 27.9062C17.0625 28.4688 17.2969 29.125 17.8594 29.4062C18.4219 29.6875 19.0781 29.4531 19.3594 28.8906L19.5938 28.375H23.8594L24.0938 28.8906C24.375 29.4531 25.0312 29.6875 25.5938 29.4062C26.1562 29.125 26.3906 28.4688 26.1094 27.9062L22.7344 21.1562ZM31.5 22.9844C31.125 22.8438 30.75 22.75 30.375 22.75C28.5 22.75 27 24.2969 27 26.125C27 28 28.5 29.5 30.375 29.5C30.8906 29.5 31.3594 29.4062 31.8281 29.1719C32.0156 29.4062 32.2969 29.5 32.625 29.5C33.2344 29.5 33.75 29.0312 33.75 28.375V21.625C33.75 21.0156 33.2344 20.5 32.625 20.5C31.9688 20.5 31.5 21.0156 31.5 21.625V22.9844Z"
-                  fill="#5585FF"
-                />
-              </svg>
-            </div>
-            <h5 className="title">Digital Add Copy</h5>
-            <p className="disc">
-              Write a first draft. The first draft should be written in
-              long-form breaking.
-            </p>
-            <a href="#" className="more-case-btn">
-              Try Blog Content
-              <i className="fa-regular fa-arrow-right" />
-            </a>
-          </div>
-          {/* single use case end */}
-        </div>
-        <div className="col-lg-4">
-          {/* single use case */}
-          <div className="single-use-case">
-            <div className="icon">
-              <svg
-                width={50}
-                height={50}
-                viewBox="0 0 50 50"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  width={50}
-                  height={50}
-                  rx={4}
-                  fill="#1ADD39"
-                  fillOpacity="0.1"
-                />
-                <path
-                  d="M18.9531 34.0469C19.4219 34.0469 19.8906 33.9062 20.3125 33.625L26.5 28.9844V35.5C26.5 36.3438 25.7969 37 25 37H13C12.1562 37 11.5 36.3438 11.5 35.5V28.9844L17.6875 33.625C18.0625 33.9062 18.5312 34.0469 18.9531 34.0469ZM19 22V23.5H14.5V14.5C14.5 13.7031 15.1562 13 16 13H31C31.7969 13 32.5 13.7031 32.5 14.5V19H22C20.3125 19 19 20.3594 19 22ZM25 25C25.7969 25 26.5 25.7031 26.5 26.5V27.1094L19.4219 32.4062C19.1406 32.5938 18.8125 32.5938 18.5781 32.4062L11.5 27.1094V26.5C11.5 25.7031 12.1562 25 13 25H25ZM37 20.5C37.7969 20.5 38.5 21.2031 38.5 22V31C38.5 31.8438 37.7969 32.5 37 32.5H28L27.9531 26.2188C27.8125 24.7188 26.5469 23.5 25 23.5H20.5V22C20.5 21.2031 21.1562 20.5 22 20.5H37ZM35.5 26.5V23.5H32.5V26.5H35.5Z"
-                  fill="#45AF5C"
-                />
-              </svg>
-            </div>
-            <h5 className="title">Email Marketing</h5>
-            <p className="disc">
-              Write a first draft. The first draft should be written in
-              long-form breaking.
-            </p>
-            <a href="#" className="more-case-btn">
-              Try Blog Content
-              <i className="fa-regular fa-arrow-right" />
-            </a>
-          </div>
-          {/* single use case end */}
-        </div>
-        <div className="col-lg-4">
-          {/* single use case */}
-          <div className="single-use-case">
-            <div className="icon">
-              <svg
-                width={50}
-                height={50}
-                viewBox="0 0 50 50"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  width={50}
-                  height={50}
-                  rx={4}
-                  fill="#F20404"
-                  fillOpacity="0.1"
-                />
-                <path
-                  d="M35.5 21.4375C36.3438 21.8594 37 22.9844 37 24.25C37 25.5625 36.3438 26.6875 35.5 27.1094V34C35.5 34.6094 35.125 35.1719 34.5625 35.4062C34 35.6406 33.3438 35.5 32.9219 35.0781L30.8594 33.0156C28.6094 30.7656 25.5625 29.5 22.375 29.5H22V35.5C22 36.3438 21.2969 37 20.5 37H17.5C16.6562 37 16 36.3438 16 35.5V29.5C14.3125 29.5 13 28.1875 13 26.5V22C13 20.3594 14.3125 19 16 19H22.375C25.5625 19 28.6094 17.7344 30.8594 15.5312L32.9219 13.4688C33.3438 13.0469 34 12.9062 34.5625 13.1406C35.125 13.375 35.5 13.9375 35.5 14.5V21.4375ZM22.375 22H22V26.5H22.375C26.125 26.5 29.7344 27.9062 32.5 30.4375V18.1094C29.7344 20.6406 26.125 22 22.375 22Z"
-                  fill="#E33131"
-                />
-              </svg>
-            </div>
-            <h5 className="title">SEO Content</h5>
-            <p className="disc">
-              Write a first draft. The first draft should be written in
-              long-form breaking.
-            </p>
-            <a href="#" className="more-case-btn">
-              Try Blog Content
-              <i className="fa-regular fa-arrow-right" />
-            </a>
-          </div>
-          {/* single use case end */}
-        </div>
-        <div className="col-lg-4">
-          {/* single use case */}
-          <div className="single-use-case">
-            <div className="icon">
-              <svg
-                width={50}
-                height={50}
-                viewBox="0 0 50 50"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <rect
-                  width={50}
-                  height={50}
-                  rx={4}
-                  fill="#5105F1"
-                  fillOpacity="0.1"
-                />
-                <path
-                  d="M30 18.25V31.75C30 33.0156 28.9688 34 27.75 34H14.25C12.9844 34 12 33.0156 12 31.75V18.25C12 17.0312 12.9844 16 14.25 16H27.75C28.9688 16 30 17.0312 30 18.25ZM39 19V31.0469C39 32.2188 37.5938 32.9219 36.6094 32.2656L31.5 28.7031V21.3438L36.6094 17.7812C37.5938 17.125 39 17.8281 39 19Z"
-                  fill="#8B55FF"
-                />
-              </svg>
-            </div>
-            <h5 className="title">Video Description</h5>
-            <p className="disc">
-              Write a first draft. The first draft should be written in
-              long-form breaking.
-            </p>
-            <a href="#" className="more-case-btn">
-              Try Blog Content
+              Integrate with Polymatric
               <i className="fa-regular fa-arrow-right" />
             </a>
           </div>
@@ -640,17 +516,9 @@ const Feature = () => {
       <div className="row">
         <div className="col-lg-12">
           <div className="title-left-feature">
-            <h2 className="title">
-              The process of generating blog posts <br />
-              using AI content writing tools
+            <h2 className="title" style={{textAlign:"center"}}>
+            Install anywhere & connect with your favorite services
             </h2>
-            <p className="disc">
-              Utilize an AI content writing tool to generate initial paragraphs
-              or sections based on the selected topic and subheadings. Provide
-              any specific instructions or guidelines to the AI tool to align
-              the content with your desired tone and style. Write an engaging
-              introduction that introduces the topic, captures.
-            </p>
           </div>
         </div>
       </div>
@@ -662,15 +530,13 @@ const Feature = () => {
               <div className="col-lg-6">
                 <div className="feature-content-inner">
                   <h3 className="title">
-                    <span>Step 01:</span> Topic Selection
+                    <span></span> Easily integrate across all your platforms
                   </h3>
                   <p className="disc">
-                    Start by identifying the topic or subject for your blog
-                    post. You can choose a specific keyword or provide a brief
-                    description of the desired content to the AI tool.
+                   Use powerful web and WordPress plugins, dedicated Android, iOS, and hybrid mobile SDKs to get your support system up and running. Deploy chatbots and live chat to Facebook, WhatsApp, and Line easily.
                   </p>
                   <a href="#" className="rts-btn btn-primary">
-                    Start Writing <i className="fa-regular fa-arrow-right" />
+                    Visit Docs<i className="fa-regular fa-arrow-right" />
                   </a>
                 </div>
               </div>
@@ -693,42 +559,14 @@ const Feature = () => {
               <div className="col-lg-6">
                 <div className="feature-content-inner pl--120">
                   <h3 className="title">
-                    <span>Step 02:</span> Input Instructions
+                    <span></span> Use Kommunicate with your favorite apps
                   </h3>
                   <p className="disc">
-                    Start by identifying the topic or subject for your blog
-                    post. You can choose a specific keyword or provide a brief
-                    description of the desired content to the AI tool.
+                   Do more with Kommunicate by connecting your favorite tools and seamlessly transfer data between them. Easily integrate with Facebook, WhatsApp, Line, Zapier, CRMs, and more apps.
                   </p>
                   <a href="#" className="rts-btn btn-primary">
-                    Start Writing <i className="fa-regular fa-arrow-right" />
+                    View All Integrations <i className="fa-regular fa-arrow-right" />
                   </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* single featue area end */}
-          {/* single featue area start */}
-          <div className="single-feature-area-main-inner">
-            <div className="row">
-              <div className="col-lg-6">
-                <div className="feature-content-inner">
-                  <h3 className="title">
-                    <span>Step 03:</span> Content Generation
-                  </h3>
-                  <p className="disc">
-                    Start by identifying the topic or subject for your blog
-                    post. You can choose a specific keyword or provide a brief
-                    description of the desired content to the AI tool.
-                  </p>
-                  <a href="#" className="rts-btn btn-primary">
-                    Start Writing <i className="fa-regular fa-arrow-right" />
-                  </a>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div className="thumbnail-feature">
-                  <img src="assets/images/feature/06.svg" alt="feature" />
                 </div>
               </div>
             </div>
@@ -747,8 +585,7 @@ const Feature = () => {
           <div className="cta-main-wrapper bg_image">
             <div className="left">
               <h3 className="title">
-                All set to level up <br />
-                your content game?
+                Connect your messaging apps with Kommunicate Now!
               </h3>
               <a href="/AboutOpenUp" className="rts-btn btn-primary">
                 Get Started Now
@@ -774,13 +611,11 @@ const Feature = () => {
             {/* single sized  footer  */}
             <div className="footer-singl-wized left-logo">
               <div className="head">
-                <a href="#">
-                  <img src="assets/images/logo/01.svg" alt="logo" />
-                </a>
+                <h4>Polymatric</h4>
               </div>
               <div className="body">
                 <p className="dsic">
-                  Openup is an artificial intelligence trained to automate
+                  Polymatric is an artificial intelligence trained to automate
                   important tasks such writing optimized product descriptions.
                 </p>
                 <div className="social-style-two">
@@ -890,8 +725,8 @@ const Feature = () => {
           {/* footer-copyright-area start */}
           <div className="copy-right-start-two">
             <p>
-              <a href="https://reactheme.com/" target="_blank">
-                Reactheme©
+              <a href="https://www.vagonon.com/" target="_blank">
+                Vagonon©
               </a>{" "}
               2023. All Rights Reserved.
             </p>
